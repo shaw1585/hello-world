@@ -1,0 +1,29 @@
+<view>
+  <view class="location">
+  <text>点击编辑位置</text>
+  </view>
+  
+  <view class="have">
+    <text>我有</text>
+    <view class="flag" />
+    <input type='number'>
+    </input>
+    </view>
+    
+    <view class="want">
+    </view>
+    
+    <view class="rate">
+    </view>
+    
+    <view class="contact">
+      <view class="wechat">
+        <text>微信号</text>
+      </view>
+      
+      <view class="phone">
+        <text>电话</text>
+      </view>
+  </view>
+  <button class="btn" type="primary" bindtap='submit' >发布</button>
+</view>
